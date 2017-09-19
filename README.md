@@ -6,3 +6,5 @@
  Windows isn't good for coding/programming 
  Linux and mac is the way to go
  #### **Week 1**
+
+[https://www.youtube.com/](https://www.google.com "Youtube homepage")
