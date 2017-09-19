@@ -7,4 +7,4 @@
  Linux and mac is the way to go
  #### **Week 1**
 
-[The website named YouTube](https://www.youtube.com "Youtube homepage")
+[The website named YouTube](https://www.youtube.com "This is cool")
