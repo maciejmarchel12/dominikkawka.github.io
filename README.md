@@ -7,7 +7,7 @@ Windows isn't good for coding/programming
 Linux and mac is the way to go
 #### **Week 1**
 
-[You(Tube) can link websites](https://www.youtube.com "This is cool")
+[You(Tube) can link websites](https://www.youtube.com/watch?v=3J6f6ABLwP8&t=1s "This is cool")
 
 *I learned* ~~about~~ **Emphasis** 
 
