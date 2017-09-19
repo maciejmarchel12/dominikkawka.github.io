@@ -11,7 +11,7 @@ Linux and mac is the way to go
 
 URLs will turn into links 
 
-https://www.reddit.com/dankmemes
+~~https://www.reddit.com/dankmemes~~
 
 
 |T1    |T2     |T3     |
