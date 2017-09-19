@@ -13,6 +13,8 @@ URLs will turn into links
 
 ~~https://www.reddit.com/dankmemes~~
 
+The Emphasis also works on links, which it should.
+
 
 |T1    |T2     |T3     |
 |:-----|:-----:|------:|
