@@ -33,5 +33,5 @@ User interface >> Displaying the information needed and is easy to read eg Minec
 
 User eXperience >> Does the website have a meaning, a dedicated audience 
 
-muqoups ![alt text] https://github.com/dominikkawka/dominikkawka.github.io/blob/master/Screen%20Shot%202017-09-21%20at%2016.46.03.png
+muqoups ![alt text] https://imgur.com/a/CfTAU
 
