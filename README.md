@@ -33,5 +33,5 @@ User interface >> Displaying the information needed and is easy to read eg Minec
 
 User eXperience >> Does the website have a meaning, a dedicated audience 
 
-muqoups ![alt text] https://imgur.com/a/CfTAU
+[Website design](https://imgur.com/a/CfTAU "Website")
 
