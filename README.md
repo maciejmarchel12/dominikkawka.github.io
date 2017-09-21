@@ -32,3 +32,6 @@ Our tower fell, but It thought us to learn by trail and error, and not to try to
 User interface >> Displaying the information needed and is easy to read eg Minecraft with the hotbar,health,hunger,exp and armour 
 
 User eXperience >> Does the website have a meaning, a dedicated audience 
+
+muqoups ![alt text] https://github.com/dominikkawka/dominikkawka.github.io/blob/master/Screen%20Shot%202017-09-21%20at%2016.46.03.png
+
