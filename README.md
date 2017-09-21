@@ -1,4 +1,5 @@
 # What I learned today!
+<<<<<<< HEAD
  How to use a mac book
  Learned how to use the commands pwd + ls + cd + mkdir
  How to commit stuff to github
@@ -6,6 +7,15 @@
  Windows isn't good for coding/programming 
  Linux and mac is the way to go
  #### **Week 1**
+=======
+How to use a mac book
+Learned how to use the commands pwd + ls + cd + mkdir
+How to commit stuff to github
+Git add README > git commit -m "first commit" > git push
+Windows isn't good for coding/programming 
+Linux and mac is the way to go
+#### **Week 1**
+>>>>>>> 726ec500619db3110aab69a3792249264951c315
 
 [You(Tube) can link websites](https://www.youtube.com/watch?v=3J6f6ABLwP8&t=1s "This is cool")
 
