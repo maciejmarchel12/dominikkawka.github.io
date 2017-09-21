@@ -26,3 +26,9 @@ The Emphasis also works on links, which it should.
 **Spaghetti and marshmellow challenge**
 
 Our tower fell, but It thought us to learn by trail and error, and not to try to make one big plan and fail
+
+*UI and UX*
+
+User interface >> Displaying the information needed and is easy to read eg Minecraft with the hotbar,health,hunger,exp and armour 
+
+User eXperience >> Does the website have a meaning, a dedicated audience 
