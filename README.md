@@ -72,6 +72,23 @@ console.log("ndsiao".toUpperCase()); Makes this all uppercase
 
 ===
 
+Math.random() generates a number between 1 and 0
+
+Math.floor() rounds up or down a number
+
+Math.floor(Math.random() * 50); Multiplies the number by 50 
+
+I had trouble with this. but the correct code is below vvv
+===
+
+console.log(Math.floor(Math.random() * 100))
+
+===
+
+I personally feel that with Code academy is a bad way to learn, after half an hour I already can't remember most of the things that I've done.
+
+
+
 
 
 
