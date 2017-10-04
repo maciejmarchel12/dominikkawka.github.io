@@ -64,6 +64,18 @@ You can also do console.log(3 + 4). Subtract(-) Multiply(Asterik) and Divide (/)
 
 console.log("gdhasuidbasuio".length) Shows how many characters the thing in the quotes has (It has 14)
 
+console.log("ndsiao".toUpperCase()); Makes this all uppercase
+
+===
+
+**Remove Whitespace - I can't do it :(( **
+
+===
+
+
+
+
+
 
 
 
