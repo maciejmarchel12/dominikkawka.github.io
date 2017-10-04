@@ -54,6 +54,8 @@ console.log(33);
 
 console.log("woo");
 
+You can also do console.log(3 + 4). Subtract(-) Multiply(Asterik) and Divide (/)
+
 
 
 
