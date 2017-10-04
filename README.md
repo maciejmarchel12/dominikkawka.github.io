@@ -95,3 +95,5 @@ The ping pong game is doing well so far, I understand most of the codes meaning
 I couldn't get the collision to work so I had to look up a solution.
 
 Another problem - Whenever I would make the table for the ping pong, all the props would disappear; Fixed > Moved some of the coding and it worked
+
+I refuse to make mouse controls for a game like this. 
