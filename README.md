@@ -42,9 +42,21 @@ User eXperience >> Does the website have a meaning, a dedicated audience
 We started to learn JavaScript
 
 var Age = "15";
-console.log("I am " + age) 
+console.log("I am " + age) - I am 15
 
-I am 15
+console.log(true);
+
+console.log(false);
+
+console.log(null);
+
+console.log(33);
+
+console.log("woo");
+
+
+
+
 
 
 
