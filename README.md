@@ -23,6 +23,8 @@ The Emphasis also works on links, which it should.
 
 ~~Test~~
 
+## **Week 2** 
+
 **Spaghetti and marshmellow challenge**
 
 Our tower fell, but It thought us to learn by trail and error, and not to try to make one big plan and fail
@@ -34,4 +36,15 @@ User interface >> Displaying the information needed and is easy to read eg Minec
 User eXperience >> Does the website have a meaning, a dedicated audience 
 
 [Website design](https://imgur.com/a/CfTAU "Website")
+
+## **Week 3 **
+
+We started to learn JavaScript
+
+var Age = "15";
+console.log("I am " + age) 
+
+I am 15
+
+
 
