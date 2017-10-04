@@ -87,7 +87,12 @@ console.log(Math.floor(Math.random() * 100))
 
 I personally feel that with Code academy is a bad way to learn, after half an hour I already can't remember most of the things that I've done.
 
+Ping pong game
+===
 
+The ping pong game is doing well so far, I understand most of the codes meaning
+
+I couldn't get the collision to work so I had to look up a solution.
 
 
 
