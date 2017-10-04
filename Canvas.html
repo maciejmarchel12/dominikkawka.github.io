@@ -41,7 +41,7 @@ for(c=0; c<brickColumnCount; c++) {
     }
 }
 
-	var bricks = [];
+var bricks = [];
 for(c=0; c<brickColumnCount; c++) {
     bricks[c] = [];
     for(r=0; r<brickRowCount; r++) {
@@ -52,71 +52,90 @@ for(c=0; c<brickColumnCount; c++) {
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 
-function keyDownHandler(e) {
-    if(e.keyCode == 39) {
-        rightPressed = true;
-    }
-    else if(e.keyCode == 37) {
-        leftPressed = true;
-    }
-}
-function keyUpHandler(e) {
-    if(e.keyCode == 39) {
-        rightPressed = false;
-    }
-    else if(e.keyCode == 37) {
-        leftPressed = false;
-    }
-}
+function keyDownHandler(e){
+	if(e.keyCode==39){
+		
+		rightPressed=true;
+		
+		}
+		else if(e.keyCode==37){
+		
+		leftPressed=true;
+		
+		}
+		
+	}
+	
+function keyUpHandler(e){
+	
+	if(e.keyCode==39){
+		
+		rightPressed=false;
+	}
+	else if(e.keyCode==37){
+		
+		leftPressed=false;
+		
+		}
+	}
 
-	function collisionDetection() {
+function drawBall(){
+	ctx.beginPath();
+	ctx.arc(x,y,ballRadius,0,2*Math.PI);
+	ctx.fillstyle="#0033FF";
+	ctx.fillStroke="#0033FF";
+	ctx.Stroke="10"
+	ctx.fill();
+	ctx.closePath();
+	}
+
+function drawPaddle(){
+	ctx.beginPath();
+	ctx.rect(paddleX,canvas.height-paddleHeight,paddleWidth,paddleHeight);
+	ctx.fillstyle="#0eea13";
+	ctx.fill();
+	ctx.closePath();
+	}
+function drawBricks() {
     for(c=0; c<brickColumnCount; c++) {
         for(r=0; r<brickRowCount; r++) {
-            var b = bricks[c][r];
-            if(x > b.x && x < b.x+brickWidth && y > b.y && y < b.y+brickHeight) {
-                dy = -dy;
+            if(bricks[c][r].status == 1) {
+                var brickX = (c*(brickWidth+brickPadding))+brickOffsetLeft;
+                var brickY = (r*(brickHeight+brickPadding))+brickOffsetTop;
+                bricks[c][r].x = brickX;
+                bricks[c][r].y = brickY;
+                ctx.beginPath();
+                ctx.rect(brickX, brickY, brickWidth, brickHeight);
+                ctx.fillStyle = "#0095DD";
+                ctx.fill();
+                ctx.closePath();
             }
         }
     }
 }
-	
-function drawBall() {
-    ctx.beginPath();
-    ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-    ctx.fillStyle = "#0095DD";
-    ctx.fill();
-    ctx.closePath();
-}
-function drawPaddle() {
-    ctx.beginPath();
-    ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
-    ctx.fillStyle = "#0eea13";
-    ctx.fill();
-    ctx.closePath();
-}
-function drawBricks() {
+
+function collisionDetection() {
     for(c=0; c<brickColumnCount; c++) {
         for(r=0; r<brickRowCount; r++) {
-            var brickX = (c*(brickWidth+brickPadding))+brickOffsetLeft;
-            var brickY = (r*(brickHeight+brickPadding))+brickOffsetTop;
-            bricks[c][r].x = brickX;
-            bricks[c][r].y = brickY;
-            ctx.beginPath();
-            ctx.rect(brickX, brickY, brickWidth, brickHeight);
-            ctx.fillStyle = "#0095DD";
-            ctx.fill();
-            ctx.closePath();
+            var b = bricks[c][r];
+            if(b.status == 1) {
+                if(x > b.x && x < b.x+brickWidth && y > b.y && y < b.y+brickHeight) {
+                    dy = -dy;
+                    b.status = 0;
+                }
+            }
         }
     }
 }
 
-function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    drawBricks();
-    drawBall();
-    drawPaddle();
-    
-    if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
+
+function draw(){
+	ctx.clearRect(0,0,canvas.width,canvas.height);
+	drawBricks();
+	drawBall();
+	drawPaddle();
+	collisionDetection();
+ if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
         dx = -dx;
     }
     if(y + dy < ballRadius) {
@@ -124,7 +143,7 @@ function draw() {
     }
     else if(y + dy > canvas.height-ballRadius) {
         if(x > paddleX && x < paddleX + paddleWidth) {
-           if(y= y-paddleHeight){
+			 if(y= y-paddleHeight){
             dy = -dy  ;
 			 }
         }
@@ -133,19 +152,20 @@ function draw() {
             document.location.reload();
         }
     }
-    
-    if(rightPressed && paddleX < canvas.width-paddleWidth) {
-        paddleX += 7;
-    }
-    else if(leftPressed && paddleX > 0) {
-        paddleX -= 7;
-    }
-    
-    x += dx;
-    y += dy;
-}
+	if(rightPressed && paddleX<canvas.width-paddleWidth){
+		
+		paddleX+=7;
+		}
+	 else if(leftPressed && paddleX>0 ){
+		 paddleX-=7;
+		 
+		 }
+		 
+		 x=x+dx;
+	     y=y+dy;
+	}
 
-setInterval(draw, 10);
+setInterval(draw,10);
 
 </script>
 
