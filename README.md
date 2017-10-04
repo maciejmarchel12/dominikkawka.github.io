@@ -44,6 +44,8 @@ We started to learn JavaScript
 var Age = "15";
 console.log("I am " + age) - I am 15
 
+===
+
 console.log(true);
 
 console.log(false);
@@ -54,7 +56,13 @@ console.log(33);
 
 console.log("woo");
 
+===
+
 You can also do console.log(3 + 4). Subtract(-) Multiply(Asterik) and Divide (/)
+
+===
+
+
 
 
 
