@@ -97,3 +97,7 @@ I couldn't get the collision to work so I had to look up a solution.
 Another problem - Whenever I would make the table for the ping pong, all the props would disappear; Fixed > Moved some of the coding and it worked
 
 I refuse to make mouse controls for a game like this. 
+
+<h1> Week 4 </h1>
+<p> I learned how to do everything above <b> AND </b> I learned about the existence of twined </p>
+
