@@ -3,7 +3,10 @@
 <head>
 	<title> CV </title>
 <link rel="stylesheet" type="text/css" href="style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
      <h1> Website </h1>
@@ -14,14 +17,36 @@
         <li><a href="memes.html">Memes</a></li>
      </ul>
 
-<div id="edu">
-	<h3> Education </h3>
-	       <p> Mount Sion CBS Secondary School 2013-Present </p>
-           
-           <p> Waterford Educate Together National School 2005-2013 </p>
-           
-           <p> Polish School Waterford 2007-2012 </p>
-</div>
+<div class="container">
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#test" href="#collapse1">Name, Date of birth and Nationality</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+          <p>Name: Dominik Kawka</p>
+          <p>Date of birth: 02 August 2002</p>
+          <p>Nationality: Poland</p></div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#test" href="#collapse2">My Education</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+          <p>Waterford Educate Together 2005-2013</p>
+          <p>Waterford Polish school 2007-2012</p>
+          <p>Mount Sion CBS Secondary School 2013-Present</p></div>
+        </div>
+      </div>
+      
+
 
 </body>
 </html>
