@@ -28,3 +28,7 @@ nav li a:hover:not(.active) {
 h1 {
     text-align: center;
 }
+
+p.time {
+    font-family: "Times New Roman", Times, serif;
+}
