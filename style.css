@@ -32,3 +32,6 @@ h1 {
 p.time {
     font-family: "Times New Roman", Times, serif;
 }
+p.italic {
+    font-style: italic;
+}
