@@ -35,3 +35,14 @@ p.time {
 p.italic {
     font-style: italic;
 }
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #e83114;
+    clear: left;
+    text-align: center;
+}
+
+
+
