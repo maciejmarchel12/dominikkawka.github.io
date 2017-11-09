@@ -35,3 +35,16 @@ p.time {
 p.italic {
     font-style: italic;
 }
+
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: #222;
+    clear: left;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+
+
