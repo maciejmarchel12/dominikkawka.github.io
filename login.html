@@ -2,10 +2,29 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+<style>
+.btn-primary.active {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+.btn-primary {
+	color: #222;
+	background-color: #ddffff;
+	border-color: #222;
+}
+.btn-primary:hover:not(.active) {
+	color: #555;
+	background-color:#222;
+	border-color:#ddffff;
+}
+</style>
+
 </head>
 <body>
-<div class="alert alert-primary" role="alert">
-  This is a primary alert—check it out!
+  <button type="button" class="btn btn-primary btn-lg">Login</button>
+
 </div>
 </body>
 
