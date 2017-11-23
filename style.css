@@ -27,6 +27,8 @@ nav li a:hover:not(.active) {
 }
 h1 {
     text-align: center;
+    padding: 8px;
+    font-family:"Georgia", serif;
 }
 
 p.time {
