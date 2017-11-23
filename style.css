@@ -25,6 +25,22 @@ nav li a:hover:not(.active) {
 .active {
     background-color: #e83114;
 }
+}
+.btn-basic.active {
+  color: white;
+  background-color: #e83114;
+  border-color: #285e8e; 
+}
+.btn-basic {
+    color: white;
+    background-color: #444;
+    border-color: #222;
+}
+.btn-basic:hover:not(.active) {
+    color: white;
+    background-color:#e83114;
+    border-color:#222;
+}
 h1 {
     text-align: center;
     padding: 8px;
@@ -47,21 +63,8 @@ p.italic {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 }
-.btn-primary.active {
-  color: white;
-  background-color: #e83114;
-  border-color: #285e8e;
-}
-.btn-primary {
-    color: white;
-    background-color: #444;
-    border-color: #222;
-}
-.btn-primary:hover:not(.active) {
-    color: white;
-    background-color:#e83114;
-    border-color:#222;
-}
+
+
 
 
 
